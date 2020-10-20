@@ -74,7 +74,7 @@ function keyPressed() {
 Matter.Body.setStatic(packageBody, false)
   game="a"
   }
-}
+
   if (keyDown( RIGHT_ARROW)){
 helicopterSprite.x=helicopterSprite.x+3
 
@@ -82,7 +82,7 @@ helicopterSprite.x=helicopterSprite.x+3
   if(keyDown("left")){
 helicopterSprite.x=helicopterSprite.x-3
   }
-  
+	}
 }
 
 
